@@ -1,0 +1,54 @@
+#include <conio.h>
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	
+	cout<<"Type of ticket"<<endl;
+	int Premium;
+	cin >> Premium;
+	cout <<"Php5000"<<endl;
+	cout<<""<<endl;
+
+	int sideline;
+	cout <<"sideline"<<endl;
+	cin >>sideline;	
+	cout <<"Php2500"<<endl;
+	cout<<""<<endl;
+
+	int Box;
+	cout<<"Box"<<endl;
+	cin>>Box;
+	cout <<"Php1500"<<endl;
+	cout<<""<<endl;
+
+	int GenAd;
+	cout<<"GenAd"<<endl;
+	cin>>GenAd;
+	cout<<"Php1000"<<endl;
+
+	cout<<""<<endl;
+	cout<<""<<endl;
+	cout<<""<<endl;
+
+	double TicketSold;
+	double Premium,Sideline,Box,GenAd,Total;
+	TicketSold= 0;
+	Premium = 5000;
+	Sideline =2500;
+	Box = 1500;
+	GenAd =1000;
+	cout<<"Enter Ticket Sold:";
+	cin>> TicketSold;
+	Total = TicketSold * Premium;
+	cout<< "Total is" <<Total<<endl;
+	
+
+
+	_getch ();
+	return 0;
+
+
+}
